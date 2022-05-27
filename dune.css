@@ -114,11 +114,11 @@ button{
     }
     button{
         height: 3em;
-        font-size: 1.5em;
+        font-size: 1.75em;
         height: 2em;
     }
     p, #clear, #auto-spice{
-        font-size: 1.5em;
+        font-size: 1.75em;
     }
     #strength {
         font-size: 4em;
@@ -128,6 +128,7 @@ button{
         grid-column-start: -2;
         grid-column-end:-1;
         height: 2em;
+        /* background-color: #a63d40; */
     }
     #auto-spice {
         grid-column-start: 1;
