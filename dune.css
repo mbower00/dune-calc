@@ -105,13 +105,9 @@ button{
 }
 
 @media only screen and (max-width: 550px) {
-    button, p{
-        font-size: 2.5em;
+    .grid{
+        grid-template-columns: 1fr 1fr;
     }
-    #strength{
-        font-size: 5em;
-    }
-}
 
 /* #units, #spice, #elites {
     justify-self: end;
