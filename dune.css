@@ -117,7 +117,7 @@ button{
         grid-column-end: 2;
     }
     button{
-        height: 1em;
+        height: auto;
     }
     button, p{
         font-size: 2em;
