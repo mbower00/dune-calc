@@ -126,6 +126,9 @@ button{
     button, p{
         font-size: 2.5em;
     }
+    #strength {
+        font-size: 4em;
+    }
 }
 
 /* #units, #spice, #elites {
