@@ -115,14 +115,14 @@ button{
     }
     button{
         height: 3em;
-        font-size: 2em;
+        font-size: 1.75em;
         height: 2em;
     }
     p, #clear, #auto-spice{
-        font-size: 2em;
+        font-size: 1.75em;
     }
     #strength {
-        font-size: 4em;
+        font-size: 5em;
         border-radius: 0;
     }
     #clear {
