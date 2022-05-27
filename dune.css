@@ -113,22 +113,29 @@ button{
         grid-template-columns: 1fr 1fr;
     }
     button{
-        min-height: auto;
-        font-size: 4em;
+        height: 3em;
+        font-size: 1.5em;
+        height: 2em;
     }
     p, #clear, #auto-spice{
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
     #strength {
-        font-size: 4em;
+        font-size: 3em;
+        border-radius: 0;
     }
     #clear {
         grid-column-start: -2;
         grid-column-end:-1;
+        height: 3em;
     }
     #auto-spice {
         grid-column-start: 1;
         grid-column-end: 2;
+        height: 3em;
+    }
+    .info{
+        border-radius: 0;
     }
 }
 
