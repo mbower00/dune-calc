@@ -119,6 +119,10 @@ button{
     button{
         height: 1em;
     }
+    button, p{
+        font-size: 2em;
+    }
+}
 
 /* #units, #spice, #elites {
     justify-self: end;
