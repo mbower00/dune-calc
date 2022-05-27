@@ -112,6 +112,16 @@ button{
     .grid{
         grid-template-columns: 1fr 1fr;
     }
+    button{
+        min-height: auto;
+        font-size: 4em;
+    }
+    p, #clear, #auto-spice{
+        font-size: 2.5em;
+    }
+    #strength {
+        font-size: 4em;
+    }
     #clear {
         grid-column-start: -2;
         grid-column-end:-1;
@@ -119,16 +129,6 @@ button{
     #auto-spice {
         grid-column-start: 1;
         grid-column-end: 2;
-    }
-    button{
-        min-height: auto;
-        font-size: 4em;
-    }
-    p{
-        font-size: 2.5em;
-    }
-    #strength {
-        font-size: 4em;
     }
 }
 
