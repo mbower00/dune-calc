@@ -104,7 +104,7 @@ button{
     margin-top: 20px;
 }
 
-.disable-dbl-tap-zoom {
+.tap {
     touch-action: manipulation;
 }
 
