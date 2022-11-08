@@ -1,0 +1,163 @@
+/* 
+black #151515
+red #a63d40
+yellow #e9b872
+green #90a959
+blue #6494aa 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Staatliches&display=swap');
+
+.main{
+    max-width: 510px;
+    margin: auto;
+}
+
+.info{
+    background-color: #e9b872;
+    border: #e9b872;
+    border-radius: 5px;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#strength{
+    background-color: #e9b872;
+    border: #e9b872;
+    border-radius: 5px;
+}
+
+body{
+    /* background-color: #f0f3f5; */
+    /* background-color: #ffffc7; */
+    /* background-color: #f4e9cd; */
+    background-color: #fef9ef;
+}
+
+body, button{
+    font-family: 'Staatliches', Arial, Helvetica, sans-serif;
+    /* font-family: 'Aldrich', sans-serif;
+    font-weight: 900; */
+}
+
+.grid {
+    display: grid;
+    
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 10px;
+    row-gap: 20px;
+    align-items: center;
+}
+
+#strength {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    font-size: 6em;
+}
+
+p {
+    text-align: center;
+    margin:0;
+    
+}
+
+button, p{
+    font-size: 3em;
+    color:#151515;
+}
+
+.plus{
+    background-color: #90a959;
+    border: #90a959;
+    border-radius: 5px;
+}
+
+.minus{
+    background-color: #a63d40;
+    border: #a63d40;
+    border-radius: 5px;
+}
+
+.reset{
+    background-color: #151515;
+    border: #151515;
+    border-radius: 5px;
+    color: #fef9ef;
+}
+
+.link{
+    background-color: #6494aa;
+    border: #6494aa;
+    border-radius: 5px;
+}
+
+button{
+    height: 2em;
+}
+
+#auto-spice, #clear{
+    background-color: #6494aa;
+    border: #6494aa;
+    border-radius: 5px;
+}
+
+#auto-spice {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#clear {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+#bottom-grid{
+    margin-top: 20px;
+}
+
+.tap {
+    touch-action: manipulation;
+}
+
+.spire-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    align-items: center;
+    gap: 5px;
+}
+
+.spire-info{
+    background-color: #e9b872;
+    border: #e9b872;
+    border-radius: 5px;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.blue{
+    border-style: solid;
+    border-color: #6494aa;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+.red{
+    border-style: solid;
+    border-color: #a63d40;
+    border-width: 5px;
+    border-radius: 5px; 
+}
+
+.green{
+    border-style: solid;
+    border-color: #90a959;
+    border-width: 5px; 
+    border-radius: 5px;
+}
