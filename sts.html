@@ -10,19 +10,34 @@
 </head>
 <body class="tap">
     <div class="spire-grid">
-        <p class="spire-info">Energy</p>
-        <p class="info red" id="energy_amount">3</p>
+        <p class="spire-info">Energy &#9889</p>
+        <p class="info green" id="energy_amount">3</p>
         <button type="button" class="minus" onclick="minus_energy()">-</button>
         <button type="button" class="plus" onclick="plus_energy()">+</button>
         <button type="button" class="reset" onclick="reset_energy()">Reset</button>
         <button type="button" class="reset" onclick="set_energy(3)">Set 3</button>
         <button type="button" class="reset" onclick="set_energy(4)">Set 4</button>
         <button type="button" class="reset" onclick="set_energy(5)">Set 5</button>
-        <p class="spire-info">Block</p>
+        <p class="spire-info">Block &#128160</p>
         <p class="info blue" id="block_amount">0</p>
         <button type="button" class="minus" onclick="minus_block()">-</button>
         <button type="button" class="plus" onclick="plus_block()">+</button>
         <button type="button" class="reset" onclick="reset_block()">Reset</button>
+        <p class="spire-info">Strength &#128170</p>
+        <p class="info green" id="str_amount">0</p>
+        <button type="button" class="minus" onclick="minus_str()">-</button>
+        <button type="button" class="plus" onclick="plus_str()">+</button>
+        <button type="button" class="reset" onclick="reset_str()">Reset</button>
+        <p class="spire-info">Weak &#129348</p>
+        <p class="info green" id="weak_amount">0</p>
+        <button type="button" class="minus" onclick="minus_weak()">-</button>
+        <button type="button" class="plus" onclick="plus_weak()">+</button>
+        <button type="button" class="reset" onclick="reset_weak()">Reset</button>
+        <p class="spire-info">Vulnerable &#128148</p>
+        <p class="info green" id="vul_amount">0</p>
+        <button type="button" class="minus" onclick="minus_vul()">-</button>
+        <button type="button" class="plus" onclick="plus_vul()">+</button>
+        <button type="button" class="reset" onclick="reset_vul()">Reset</button>
         <button type="button" class="link" style="grid-column-start: 1; grid-column-end: -1;"><a href="index.html">Dune</a></button>
     </div>
 </body>
