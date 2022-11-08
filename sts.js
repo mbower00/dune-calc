@@ -45,9 +45,9 @@ function reset_str(){
 }
 function plus_str(){
     const amount = document.querySelector("#str_amount");
-    // if (amount.textContent != 20){
+    if (amount.textContent != 10){
         amount.textContent = amount.textContent*1 + 1;
-    // }
+    }
 
 }
 function minus_str(){
@@ -63,9 +63,9 @@ function reset_vul(){
 }
 function plus_vul(){
     const amount = document.querySelector("#vul_amount");
-    // if (amount.textContent != 20){
+    if (amount.textContent != 3){
         amount.textContent = amount.textContent*1 + 1;
-    // }
+    }
 
 }
 function minus_vul(){
@@ -81,9 +81,9 @@ function reset_weak(){
 }
 function plus_weak(){
     const amount = document.querySelector("#weak_amount");
-    // if (amount.textContent != 20){
+    if (amount.textContent != 3){
         amount.textContent = amount.textContent*1 + 1;
-    // }
+    }
 
 }
 function minus_weak(){
