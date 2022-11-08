@@ -80,6 +80,19 @@ button, p{
     border-radius: 5px;
 }
 
+.reset{
+    background-color: #151515;
+    border: #151515;
+    border-radius: 5px;
+    color: #fef9ef;
+}
+
+.link{
+    background-color: #6494aa;
+    border: #6494aa;
+    border-radius: 5px;
+}
+
 button{
     height: 2em;
 }
@@ -106,6 +119,44 @@ button{
 
 .tap {
     touch-action: manipulation;
+}
+
+.spire-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    align-items: center;
+    gap: 5px;
+}
+
+.spire-info{
+    background-color: #e9b872;
+    border: #e9b872;
+    border-radius: 5px;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.blue{
+    border-style: solid;
+    border-color: #6494aa;
+    border-width: 5px;
+}
+
+.red{
+    border-style: solid;
+    border-color: #a63d40;
+    border-width: 5px; 
+}
+
+.green{
+    border-style: solid;
+    border-color: #90a959;
+    border-width: 5px; 
 }
 
 @media only screen and (max-width: 550px) {
