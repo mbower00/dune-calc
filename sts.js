@@ -1,3 +1,9 @@
+var DEFAULT_ENERGY = 3
+
+function set_energy(num){
+    DEFAULT_ENERGY = num*1;
+}
+
 function reset_block(){
     const amount = document.querySelector("#block_amount");
     amount.textContent = 0;
@@ -18,7 +24,7 @@ function minus_block(){
 
 function reset_energy(){
     const amount = document.querySelector("#energy_amount");
-    amount.textContent = 3;
+    amount.textContent = DEFAULT_ENERGY;
 }
 function plus_energy(){
     const amount = document.querySelector("#energy_amount");
