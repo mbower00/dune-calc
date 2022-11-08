@@ -145,18 +145,21 @@ button{
     border-style: solid;
     border-color: #6494aa;
     border-width: 5px;
+    border-radius: 5px;
 }
 
 .red{
     border-style: solid;
     border-color: #a63d40;
-    border-width: 5px; 
+    border-width: 5px;
+    border-radius: 5px; 
 }
 
 .green{
     border-style: solid;
     border-color: #90a959;
     border-width: 5px; 
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 550px) {
