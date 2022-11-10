@@ -92,3 +92,20 @@ function minus_weak(){
         amount.textContent = amount.textContent*1 - 1;
     }
 }
+
+
+function reset_hp(){
+    const amount = document.querySelector("#hp_amount");
+    amount.textContent = 0;
+}
+function plus_hp(){
+    const amount = document.querySelector("#hp_amount");
+    amount.textContent = amount.textContent*1 + 1;
+
+}
+function minus_hp(){
+    const amount = document.querySelector("#hp_amount");
+    if (amount.textContent != 0){
+        amount.textContent = amount.textContent*1 - 1;
+    }
+}
